@@ -3,6 +3,7 @@ from flask_restplus import Api, Resource, fields
 from sklearn.externals import joblib
 import numpy as np
 import sys
+import pickle
 
 flask_app = Flask(__name__)
 app = Api(app = flask_app, 
